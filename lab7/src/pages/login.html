@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="../styles/login.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <p id="loginMessage"></p>
+        <input
+          id="username"
+          type="text"
+          name="username"
+          placeholder="Username"
+          required
+        />
+        <input
+          id="password"
+          type="password"
+          name="password"
+          placeholder="Password"
+          required
+        />
+        <input id="submit" type="submit" value="Login" />
+        <p>Not registered? <span>Create an account</span></p>
+      </form>
+    </div>
+    <script src="../scripts/login.js"></script>
+  </body>
+</html>
