@@ -1,0 +1,71 @@
+<!-- Create an Image Slider similar to the next image.
+When user press the next button the next image should take the place of the 
+current image and current image take the place of the previous image.
+Optional : You can use setInterval to animate the images to give the slide effect -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Lab 7</title>
+    <style>
+      body {
+        box-sizing: border-box;
+        background-color: #ddd;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .container {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 200px;
+        text-align: center;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      }
+
+      .container ul {
+        list-style: none;
+        padding: 0;
+      }
+
+      .container ul li {
+        margin-bottom: 10px;
+      }
+
+      .container ul li a {
+        display: block;
+        padding: 10px;
+        background-color: #eee;
+        border-radius: 5px;
+        text-decoration: none;
+        color: #333;
+      }
+
+      .container ul li a:hover {
+        background-color: #ddd;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>JS Lab 8</h1>
+      <ul>
+        <li>
+          <a href="src/pages/imageSlider.html">Image Slider</a>
+        </li>
+        <li>
+          <a href="src/pages/digitalWatch.html">Digital Watch</a>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>

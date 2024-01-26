@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Watch with Alarm</title>
+    <link rel="stylesheet" href="../styles/digitalWatch.css" />
+  </head>
+  <body>
+    <div class="clock-container">
+      <div class="clock">
+        <ul>
+          <li data="6">SAT</li>
+          <li data="0">SUN</li>
+          <li data="1">MON</li>
+          <li data="2">TUE</li>
+          <li data="3">WED</li>
+          <li data="4">THU</li>
+          <li data="5">FRI</li>
+        </ul>
+        <p class="clock-format">
+          <span class="hours"></span>:<span class="minutes"></span>:<span
+            class="seconds"
+          ></span>
+        </p>
+        <span class="am-pm"></span>
+      </div>
+    </div>
+
+    <div class="alarm-container">
+      <h2>Set Alarm After</h2>
+      <div class="time-container">
+        <div class="hours">
+          <h5>HOURS</h5>
+          <input type="text" name="hours" id="hours" />
+        </div>
+        <div class="minutes">
+          <h5>MINUTES</h5>
+          <input type="text" name="hours" id="minutes" />
+        </div>
+        <div class="seconds">
+          <h5>SECONDS</h5>
+          <input type="text" name="hours" id="seconds" />
+        </div>
+      </div>
+      <div class="btn-container">
+        <button type="button" class="set">Set</button>
+        <button type="button" class="clear">Clear</button>
+      </div>
+    </div>
+
+    <script src="../scripts/digitalWatch.js"></script>
+  </body>
+</html>

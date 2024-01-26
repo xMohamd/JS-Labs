@@ -1,0 +1,147 @@
+@font-face {
+  font-family: "digital-7 Mono";
+  src: url("../../public/fonts/digital-7 (mono italic).ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "digital-7";
+  src: url("../../public/fonts/digital-7.ttf") format("truetype");
+}
+
+body {
+  background-color: #333;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+.clock-container,
+.alarm-container {
+  width: 500px;
+  margin: 50px auto 0;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.clock {
+  font-family: "digital-7 Mono", sans-serif;
+  font-size: 1.5em;
+  color: #333;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+ul li {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 1.2em;
+  color: #888;
+}
+
+.clock-format {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  font-size: 2em;
+  color: #888;
+  text-align: center;
+}
+
+.am-pm {
+  display: inline;
+  font-size: 1.2em;
+  color: #888;
+}
+
+.material-icons {
+  display: block;
+  font-size: 1.2em;
+  color: #888;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+h2 {
+  font-size: 1.2em;
+  color: #333;
+  text-align: center;
+}
+
+.time-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.hours,
+.minutes,
+.seconds {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h5 {
+  font-size: 1.2em;
+  color: #333;
+  margin: 0;
+}
+
+input {
+  width: 50px;
+  height: 50px;
+  font-size: 1.5em;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.set,
+.clear {
+  width: 100px;
+  height: 40px;
+  font-size: 1em;
+  color: #fff;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.set {
+  background-color: #2196f3;
+}
+
+.clear {
+  background-color: #f44336;
+  margin-left: 20px;
+}
+
+.set:hover {
+  background-color: #1e7fc7;
+}
+
+.clear:hover {
+  background-color: #e53935;
+}
